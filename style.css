@@ -36,42 +36,36 @@ body{
     /* z-index: 1; */
 }
 
+.section-two{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
 .modalbox1{
-    width: 40%;
-    /* height:  300px; */
+    width: 50%;
     color: black;
-    border-radius: 20px;
-    margin: 7rem auto 0 auto    ;
-    padding: 40px 80px 40px 100px;
+    margin: 8rem auto ;
     position: relative;
     z-index: 2;
-    text-align: justify;
 }
 .modalbox2{
-    width: 40%;
-    /* height: 300px; */
+    width: 50%;
     color: black;
-    border-radius: 20px;
-    margin: 7rem auto 0 auto    ;
-    padding: 40px 80px 40px 100px;
+    margin: 8rem auto;
     position: absolute;
-    top: 5.3rem;
-    left: 29rem;
+    top: 0;
+    left: 12rem;
     z-index: 3;
-    text-align: justify;
 }
 .modalbox3{
-    width: 40%;
-    /* height: 300px; */
+    width: 50%;
     color: black;
-    border-radius: 20px;
-    margin: 7rem auto 0 auto    ;
-    padding: 40px 80px 40px 100px;
+    margin: 8rem auto;
     position: absolute;
-    top: 5.3rem;
-    left: 29rem;
+    top: 0;
+    left: 12rem;
     z-index: 4;
-    text-align: justify;
 }
 
 .hidden{
@@ -86,6 +80,7 @@ body{
     position: absolute;
     top: 20px;
     right: 20px;
+    cursor: pointer;
 }
 .closebutton2{
     padding: 5px 10px;
@@ -95,6 +90,7 @@ body{
     position: absolute;
     top: 20px;
     right: 20px;
+    cursor: pointer;
 }
 .closebutton3{
     padding: 5px 10px;
@@ -104,4 +100,5 @@ body{
     position: absolute;
     top: 20px;
     right: 20px;
+    cursor: pointer;
 }
